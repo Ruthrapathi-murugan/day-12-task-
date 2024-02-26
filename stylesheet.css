@@ -1,0 +1,85 @@
+.heading {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    background-color: #1c1d1e ; 
+}
+.heading .nav-link {
+    color: rgb(241, 234, 234);
+    
+}
+.intro {
+  background-color: #1c1d1e;
+  height: 50vh;
+  padding-top: 15vh;
+  margin-bottom: 4rem;
+}
+.intro h1 {
+  font-size: 3.2rem;
+}
+.h4 {
+  font-weight: lighter;
+}
+ .poeterphoto {
+  width: 300px;
+  height: 400px;
+ }
+ .container1{
+    background-color: #1c1d1e;
+    height: 10vh;
+    padding-top: 5vh;
+    color: white;
+    width: 100%;
+  }
+ .btn-group {
+  margin: 10px auto;
+}
+.btn {
+  font-size: 0.8rem;
+  padding: 8px 16px;
+  margin: 0 0.2rem;
+}
+.quote {
+  background-color: #1c1d1e;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+}
+hr {
+  display: inline-block;
+  width: 30%;
+  vertical-align: middle;
+  color: lightgray;
+}
+.awards-separator {
+  margin: 3rem auto;
+}
+.awards {
+  margin: auto;
+}
+.award {
+  min-width: 250px;
+  padding: 1rem;
+  border: 2px solid lightgray;
+  margin: 0.5rem;
+  border-radius: 3px;
+}
+.work {
+  margin: 0 auto;
+}
+.artist-work {
+  margin: 3rem auto;
+}
+footer {
+  background-color: #1c1d1e;
+  padding-top: 4rem;
+  margin: 0 auto;
+}
+.footer-content {
+  margin: 1rem;
+}
+@media (min-width: 700px) {
+  .navbar-collapse {
+    padding-left: 20% ;
+  }
+} 
